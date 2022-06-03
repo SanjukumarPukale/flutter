@@ -611,7 +611,11 @@ void main() {
         LogicalKeyboardKey.keyA,
         platform: 'windows',
       );
+<<<<<<< HEAD
+      await ServicesBinding.instance?.defaultBinaryMessenger.handlePlatformMessage(
+=======
       await ServicesBinding.instance.defaultBinaryMessenger.handlePlatformMessage(
+>>>>>>> ee4e09cce01d6f2d7f4baebd247fde02e5008851
         SystemChannels.keyEvent.name,
         SystemChannels.keyEvent.codec.encodeMessage(downData),
         (ByteData? data) {},
@@ -619,7 +623,11 @@ void main() {
       expect(receivedEvent.repeat, false);
 
       // Dispatch another down event, which should be recognized as a repeat.
+<<<<<<< HEAD
+      await ServicesBinding.instance?.defaultBinaryMessenger.handlePlatformMessage(
+=======
       await ServicesBinding.instance.defaultBinaryMessenger.handlePlatformMessage(
+>>>>>>> ee4e09cce01d6f2d7f4baebd247fde02e5008851
         SystemChannels.keyEvent.name,
         SystemChannels.keyEvent.codec.encodeMessage(downData),
         (ByteData? data) {},
@@ -627,7 +635,11 @@ void main() {
       expect(receivedEvent.repeat, true);
 
       // Dispatch an up event.
+<<<<<<< HEAD
+      await ServicesBinding.instance?.defaultBinaryMessenger.handlePlatformMessage(
+=======
       await ServicesBinding.instance.defaultBinaryMessenger.handlePlatformMessage(
+>>>>>>> ee4e09cce01d6f2d7f4baebd247fde02e5008851
         SystemChannels.keyEvent.name,
         SystemChannels.keyEvent.codec.encodeMessage(KeyEventSimulator.getKeyData(
           LogicalKeyboardKey.keyA,

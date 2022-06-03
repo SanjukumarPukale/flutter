@@ -565,6 +565,8 @@ void main() {
       expect(RawKeyboard.instance.keysPressed, isEmpty);
     });
 
+<<<<<<< HEAD
+=======
     testWidgets('isActivatedBy works as expected', (WidgetTester tester) async {
       // Collect some key events to use for testing.
       final List<RawKeyEvent> events = <RawKeyEvent>[];
@@ -589,6 +591,7 @@ void main() {
       expect(ShortcutActivator.isActivatedBy(singleActivator, events[1]), isFalse);
     });
 
+>>>>>>> ee4e09cce01d6f2d7f4baebd247fde02e5008851
     group('diagnostics.', () {
       test('single key', () {
         final DiagnosticPropertiesBuilder builder = DiagnosticPropertiesBuilder();

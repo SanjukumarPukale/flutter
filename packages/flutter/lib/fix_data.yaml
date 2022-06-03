@@ -17,6 +17,8 @@
 
 version: 1
 transforms:
+<<<<<<< HEAD
+=======
   # Changes made in https://github.com/flutter/flutter/pull/100381
   - title: "Migrate 'TextSelectionOverlay.fadeDuration' to SelectionOverlay.fadeDuration"
     date: 2022-03-18
@@ -243,6 +245,7 @@ transforms:
         oldName: 'isAlwaysShown'
         newName: 'thumbVisibility'
 
+>>>>>>> ee4e09cce01d6f2d7f4baebd247fde02e5008851
   # Changes made in https://github.com/flutter/flutter/pull/96115
   - title: "Migrate 'Icons.pie_chart_outlined' to 'Icons.pie_chart_outline'"
     date: 2022-01-04

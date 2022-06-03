@@ -521,6 +521,8 @@ void main() {
 
   // Changes made in https://github.com/flutter/flutter/pull/96115
   Icon icon = Icons.pie_chart_outlined;
+<<<<<<< HEAD
+=======
 
   // Changes made in https://github.com/flutter/flutter/pull/96957
   Scrollbar scrollbar = Scrollbar(isAlwaysShown: true);
@@ -554,4 +556,5 @@ void main() {
 
   // Change made in https://github.com/flutter/flutter/pull/100381
   TextSelectionOverlay.fadeDuration;
+>>>>>>> ee4e09cce01d6f2d7f4baebd247fde02e5008851
 }
